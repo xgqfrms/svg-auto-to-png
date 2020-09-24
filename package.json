@@ -1,0 +1,45 @@
+{
+  "name": "svg-auto-to-png",
+  "version": "1.0.4",
+  "description": "SVG auto to PNG in vanilla js",
+  "author": "xgqfrms",
+  "license": "MIT",
+  "main": "build/index.min.mjs",
+  "cjs-main": "build/index.min.js",
+  "type": "module",
+  "entry": "src/index.js",
+  "scripts": {
+    "start": "webpack --mode=development",
+    "build": "webpack --mode=production",
+    "test": "jest",
+    "demo": "echo \"Error: no test specified\" && exit 1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "build/*",
+    "package.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgqfrms/svg-auto-to-png.git"
+  },
+  "keywords": [
+    "SVG auto to PNG",
+    "svg",
+    "png",
+    "js",
+    "image",
+    "convert"
+  ],
+  "bugs": {
+    "url": "https://github.com/xgqfrms/svg-auto-to-png/issues"
+  },
+  "homepage": "https://github.com/xgqfrms/svg-auto-to-png#readme",
+  "dependencies": {
+    "app-node-env": "^1.3.5"
+  }
+}

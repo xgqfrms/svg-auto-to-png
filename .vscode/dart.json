@@ -1,0 +1,35 @@
+{
+    "Dart Template": {
+      "prefix": "dt",
+      "body": [
+        "/**",
+        " * ",
+        " * @author xgqfrms",
+        " * @license MIT",
+        " * @copyright xgqfrms",
+        " * @created 2019-01-01",
+        " * ",
+        " * @description $2",
+        " * @augments $3",
+        " * @example $4",
+        " * ",
+        " */",
+        "",
+        "void main() {",
+        "  dynamic d;",
+        "  var x = \"\";",
+        "  int i = 0;",
+        "  double f = 1.0;",
+        "  String s = \"\";",
+        "  bool b = true;",
+        "  print(\"x = \\${x}\");",
+        "  print(\"i = \\${i}\");",
+        "  print(\"f = \\${f}\");",
+        "  print(\"s = \\${s}\");",
+        "  print(\"b = \\${b}\");",
+        "}",
+        ""
+      ],
+      "description": "Dart Template & code snippets!"
+    }
+  }
