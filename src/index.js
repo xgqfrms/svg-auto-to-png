@@ -56,7 +56,8 @@ const svgAutoToPng = (options = {
           let aTag = document.createElement(`a`);
           aTag.setAttribute(`href`, base64URL);
           // aTag.setAttribute(`href`, canvas.toDataURL("image/png"));
-          aTag.download = filename + type;
+          aTag.download = filename;
+          // aTag.download = filename + type;
           aTag.click();
           // setTimeout(() => {
           //   canvas.setAttribute(`class`, "auto-hidden");

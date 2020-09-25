@@ -41,7 +41,7 @@ const svgAutoToPng = (filename = `svg-to-png`, svg = `svg`, type = `png`) => {
         // 4. 自动下载
         let aTag = document.createElement(`a`);
         aTag.setAttribute(`href`, base64URL);
-        aTag.download = filename + type;
+        aTag.download = filename;
         aTag.click();
       };
       let img = new Image();
